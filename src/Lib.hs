@@ -1,8 +1,10 @@
+{-# LANGUAGE OverloadedStrings #-}
+
 module Lib
     ( someFunc
     ) where
 
 import Protolude
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+someFunc :: Text
+someFunc = "Hello from pf2e!"
